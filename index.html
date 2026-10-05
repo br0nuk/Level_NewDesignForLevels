@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LEVEL — агенція нерухомості Івано-Франківськ</title>
+<meta name="description" content="LEVEL — команда експертів з продажу квартир у новобудовах Івано-Франківська. Купити, продати, інвестувати без комісії.">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<!-- ===== Preloader ===== -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <svg class="preloader__logo" viewBox="0 0 590 110" stroke-linecap="square">
+      <path d="M8 5 V105 H85"/>
+      <path d="M205 5 H128 V105 H205 M128 55 H195"/>
+      <path d="M243 5 L300 105 M352 5 L313 72"/>
+      <path d="M465 5 H388 V105 H465 M388 55 H455"/>
+      <path d="M508 5 V105 H585"/>
+    </svg>
+    <div class="preloader__bar"><span></span></div>
+    <div class="preloader__count">000</div>
+  </div>
+</div>
+
+<!-- ===== Nav ===== -->
+<header class="nav">
+  <a href="#top" class="nav__logo" aria-label="LEVEL"><img src="img/logo.png" alt="LEVEL агенція нерухомості"></a>
+  <ul class="nav__links">
+    <li><a href="#about">Про нас</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+    <li><a href="#complexes">Житлові комплекси</a></li>
+    <li><a href="#services">Послуги</a></li>
+    <li><a href="#clients">Клієнти</a></li>
+    <li><a href="#reviews">Відгуки</a></li>
+    <li><a href="#office">Наш офіс</a></li>
+  </ul>
+  <div class="nav__right">
+    <a class="nav__phone" href="tel:+380732612251">+380 (73) 261 22 51</a>
+    <a href="#contact" class="btn btn--sm btn--fill">Залишити заявку</a>
+    <button class="burger" aria-label="Меню"><span></span><span></span></button>
+  </div>
+</header>
+
+<nav class="mobile-menu">
+  <a href="#about">Про нас</a>
+  <a href="catalog.html">Каталог нерухомості</a>
+  <a href="#complexes">Житлові комплекси</a>
+  <a href="#services">Послуги</a>
+  <a href="#clients">Клієнти</a>
+  <a href="#reviews">Відгуки</a>
+  <a href="#office">Наш офіс</a>
+  <a class="mm-contact" href="tel:+380732612251">+380 (73) 261 22 51</a>
+</nav>
+
+<main id="top">
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero__badge">
+    <svg viewBox="0 0 130 130"><defs><path id="circ" d="M65,65 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"/></defs>
+      <text><textPath href="#circ">без комісії • новобудови • франківськ •</textPath></text></svg>
+    <b>0%</b>
+  </div>
+  <div class="hero__scroll">Гортайте</div>
+  <div class="hero__content">
+    <h1 class="hero__title">
+      <span class="split-line"><span>Команда експертів</span></span>
+      <span class="split-line"><span>з продажу квартир</span></span>
+      <span class="split-line"><span>у <em>новобудовах</em></span></span>
+      <span class="split-line"><span>Івано-Франківська</span></span>
+    </h1>
+    <div class="hero__bottom">
+      <div class="hero__btns">
+        <a href="catalog.html" class="btn btn--fill">Каталог нерухомості <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#services" class="btn">Наші послуги</a>
+      </div>
+      <p class="hero__meta"><b>LEVEL</b> — ваш надійний партнер у світі нерухомості. м. Івано-Франківськ, вул. Івасюка 19а</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Marquee ===== -->
+<div class="marquee"><div class="marquee__track" id="marquee"></div></div>
+
+<!-- ===== About ===== -->
+<section class="about section-pad container" id="about">
+  <span class="eyebrow reveal">Про нас</span>
+  <div class="about__grid">
+    <div>
+      <p class="about__lead" id="about-lead">LEVEL – ваш надійний партнер у світі нерухомості Івано-Франківська. Пропонуємо широкий вибір квартир у новобудовах на різних етапах будівництва та з готовим ремонтом.</p>
+      <div class="about__text">
+        <p class="reveal">Співпрацюємо з перевіреними забудовниками та іншими агенціями нерухомості, що дає нам змогу знаходити найкращі варіанти для вас. Продаємо об’єкти за цінами забудовників, без жодних додаткових відсотків для покупця.</p>
+        <p class="reveal">Ми не маємо прив’язки до конкретного об'єкта чи будівельної компанії, тому розповідаємо клієнтам не лише про переваги, але й озвучуємо всі недоліки того чи іншого проєкту. Також добре знаємо про всі проблемні житлові комплекси, які є в нашому місті, та застерігаємо наших клієнтів від купівлі нерухомості в таких будинках.</p>
+      </div>
+    </div>
+    <div class="about__img">
+      <img src="img/IMG_5152.webp" alt="Інтер'єр квартири">
+      <span class="about__img-tag">Новобудови з готовим ремонтом</span>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat reveal"><div class="stat__num"><span data-count="36">0</span><sup>+</sup></div><p class="stat__label">житлових комплексів у нашому каталозі</p></div>
+    <div class="stat reveal"><div class="stat__num"><span data-count="0">0</span><sup>%</sup></div><p class="stat__label">додаткових відсотків для покупця — ціни забудовників</p></div>
+    <div class="stat reveal"><div class="stat__num"><span data-count="3">0</span></div><p class="stat__label">напрямки: купівля, продаж та інвестиції</p></div>
+  </div>
+</section>
+
+<!-- ===== Levels: 3D-будинок збирається сам, коли секція з'являється ===== -->
+<section class="levels" id="why">
+  <canvas id="levels-canvas"></canvas>
+  <div class="levels__floor"><small>Рівень</small><b id="floor-num">00</b></div>
+  <div class="levels__inner container">
+    <span class="eyebrow">Переваги</span>
+    <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Чому обирають</span></span><span class="split-line"><span><em>LEVEL?</em></span></span></h2>
+    <ol class="lv-list">
+      <li class="lv-item"><span class="lv-item__n">01</span><div><h3>Не тільки сервіс, а й друг</h3><p>Звернувшись до LEVEL, Ви отримуєте друга, який допоможе вигідно купити чи продати нерухомість, надасть актуальну інформацію про ринок, розповість про переваги та недоліки забудовників і застереже від шахраїв.</p></div></li>
+      <li class="lv-item"><span class="lv-item__n">02</span><div><h3>Інвестиції — від купівлі до прибутку</h3><p>Допомагаємо не просто придбати квартиру, а й вигідно її потім продати чи здати в оренду — з ремонтом чи без.</p></div></li>
+      <li class="lv-item"><span class="lv-item__n">03</span><div><h3>Знаємо об’єкти до старту продажів</h3><p>Знаємо не тільки наявні житлові комплекси, а й нові об’єкти, які ще не вийшли у відкритий продаж і в які найвигідніше інвестувати.</p></div></li>
+      <li class="lv-item"><span class="lv-item__n">04</span><div><h3>Без комісії та з думкою про клієнтів</h3><p>Наша мета — щоб кожен клієнт залишався задоволеним. Ми зацікавлені у довготривалій співпраці та в тому, щоб ви рекомендували нас друзям.</p></div></li>
+    </ol>
+  </div>
+  <div class="levels__progress"><span></span></div>
+</section>
+
+<!-- ===== Complexes ===== -->
+<section class="complexes section-pad container" id="complexes">
+  <div class="complexes__head">
+    <div>
+      <span class="eyebrow reveal">Каталог</span>
+      <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Житлові</span></span><span class="split-line"><span><em>комплекси</em></span></span></h2>
+    </div>
+    <label class="search reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="csearch" placeholder="Пошук ЖК або вулиці">
+    </label>
+  </div>
+  <div class="chips-row reveal" id="cfilters"></div>
+  <div class="cgrid is-collapsed" id="cgrid"></div>
+  <div class="complexes__more"><button class="btn" id="cmore">Показати всі комплекси</button></div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="services section-pad container" id="services">
+  <span class="eyebrow reveal">Послуги</span>
+  <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>З чим ми</span></span><span class="split-line"><span><em>допоможемо?</em></span></span></h2>
+  <div class="svc-grid">
+    <article class="svc">
+      <div class="svc__glow"></div>
+      <canvas class="svc__canvas" data-model="key"></canvas>
+      <div class="svc__body"><span class="svc__n">01</span><h3>Купити</h3>
+        <p>Допомагаємо людям, які хочуть перейти на новий рівень життя, змінити оточення та жити у сучасному житловому комплексі Івано-Франківська. Вони цінують свій час, тому не хочуть витрачати декілька тижнів на пошук квартири, їздити по всіх відділах продажу та офісах забудовників.</p></div>
+    </article>
+    <article class="svc">
+      <div class="svc__glow"></div>
+      <canvas class="svc__canvas" data-model="house"></canvas>
+      <div class="svc__body"><span class="svc__n">02</span><h3>Продати</h3>
+        <p>Частина наших клієнтів — це власники нерухомості, які хочуть її продати, але не мають часу або не хочуть цим займатись. Визначення ринкової ціни, пошук клієнтів, проведення переговорів та показів зі всіма потенційними клієнтами — вони доручають нам.</p></div>
+    </article>
+    <article class="svc">
+      <div class="svc__glow"></div>
+      <canvas class="svc__canvas" data-model="invest"></canvas>
+      <div class="svc__body"><span class="svc__n">03</span><h3>Інвестувати</h3>
+        <p>Працюємо з тими, хто має бажання інвестувати у нерухомість нашого міста. Ми розповідаємо про три основні варіанти інвестування, обираємо той варіант, який підходить саме їм, і підбираємо найвигідніші пропозиції з найбільшою можливістю заробітку.</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Clients ===== -->
+<section class="clients section-pad" id="clients">
+  <div class="container">
+    <span class="eyebrow reveal">Клієнти</span>
+    <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Наші щасливі</span></span><span class="split-line"><span><em>власники ключів</em></span></span></h2>
+  </div>
+  <div class="clients__rows">
+    <div class="crow" id="crow1"></div>
+    <div class="crow" id="crow2"></div>
+  </div>
+</section>
+
+<!-- ===== Reviews ===== -->
+<section class="reviews section-pad" id="reviews" style="padding-top:0">
+  <div class="container reviews__head">
+    <div>
+      <span class="eyebrow reveal">Відгуки</span>
+      <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Що кажуть</span></span><span class="split-line"><span><em>клієнти</em></span></span></h2>
+    </div>
+    <div class="rnav reveal">
+      <button id="rprev" aria-label="Назад"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+      <button id="rnext" aria-label="Вперед"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+  <div class="rslider"><div class="rtrack" id="rtrack"></div></div>
+</section>
+
+<!-- ===== Office ===== -->
+<section class="office section-pad container" id="office" style="padding-top:0">
+  <span class="eyebrow reveal">Наш офіс</span>
+  <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Чекаємо вас</span></span><span class="split-line"><span><em>на каву</em></span></span></h2>
+  <div class="office__grid">
+    <figure><img src="img/IMG_3346.webp" alt="Офіс LEVEL" loading="lazy"></figure>
+    <figure><img src="img/IMG_3338.webp" alt="Офіс LEVEL" loading="lazy"></figure>
+    <figure><img src="img/IMG_3343.webp" alt="Офіс LEVEL" loading="lazy"></figure>
+    <figure><img src="img/IMG_3335.webp" alt="Офіс LEVEL" loading="lazy"></figure>
+    <div class="office__map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2621.2153950524753!2d24.7461128!3d48.9303391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c11f6b8b2af1%3A0xcddf62def4e250be!2zTEVWRUwgfCDQndC10YDRg9GF0L7QvNGW0YHRgtGMINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsA!5e0!3m2!1suk!2sua!4v1741636295710!5m2!1suk!2sua&language=uk" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="LEVEL на мапі"></iframe>
+    </div>
+  </div>
+  <div class="office__addr reveal">
+    <div>Адреса<b>м. Івано-Франківськ, вул. Івасюка 19а, 4 поверх</b></div>
+    <div>Телефон<b><a href="tel:+380732612251">+380 (73) 261 22 51</a></b></div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="contact">
+  <div class="cta__bg"><img src="img/IMG_5138.webp" alt="" loading="lazy"></div>
+  <div class="cta__inner">
+    <span class="eyebrow reveal">Заявка</span>
+    <h2 class="h2" style="margin-top:22px"><span class="split-line"><span>Замовте дзвінок</span></span><span class="split-line"><span><em>експерта</em></span></span></h2>
+    <p class="cta__sub reveal">Вкажіть свої контакти і наш менеджер звʼяжеться з вами</p>
+    <form class="form reveal" id="form" data-endpoint="/send_from_main_page.php" novalidate>
+      <div class="field"><input id="f-name" name="name" placeholder=" " autocomplete="name"><label for="f-name">Ваше ім’я</label></div>
+      <div class="field"><input id="f-phone" name="phone_number" type="tel" placeholder=" " autocomplete="tel"><label for="f-phone">Номер телефону</label></div>
+      <div class="form__err" id="f-err"></div>
+      <button class="btn btn--fill" type="submit">Замовити дзвінок <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <div class="form__ok"><b>Дякуємо за заявку!</b>Наш менеджер звʼяжеться з вами найближчим часом.</div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="footer__top">
+    <div>
+      <h4>Зателефонуйте</h4>
+      <a class="footer__phone" href="tel:+380732612251">+380 (73) 261 22 51</a>
+      <div class="socials">
+        <a href="https://www.instagram.com/level_real_estate" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+        <a href="https://t.me/level_real_estate" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M21 4 3 11l6 2.5M21 4l-3 16-9-6.5M21 4 9 13.5V19l3-3.5"/></svg></a>
+        <a href="https://www.tiktok.com/@level_real_estate" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.5 2.8 2.4 4.5 5 4.8"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Навігація</h4>
+      <ul>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="catalog.html">Каталог нерухомості</a></li>
+        <li><a href="#complexes">Житлові комплекси</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#reviews">Відгуки</a></li>
+        <li><a href="#contact">Залишити заявку</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Офіс</h4>
+      <ul>
+        <li>м. Івано-Франківськ</li>
+        <li>вул. Івасюка 19а, 4 поверх</li>
+        <li><a href="https://t.me/level_real_estate" target="_blank" rel="noopener">Telegram: @level_real_estate</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__big"><img src="img/logo.png" alt=""></div>
+  <div class="footer__copy"><span>© LEVEL агенція нерухомості</span><span>Івано-Франківськ</span></div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" aria-label="Закрити">✕</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="data.js"></script>
+<script src="common.js"></script>
+
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+
+const D = window.LEVEL_DATA;
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const isMobile = matchMedia('(max-width: 900px)').matches;
+const canHover = matchMedia('(hover: hover)').matches;
+const reduce = LEVEL.reduce;
+const lenis = LEVEL.lenis;
+lenis?.stop();
+const DPR = Math.min(devicePixelRatio, isMobile ? 1.5 : 1.75);
+const ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M8 7h9v9"/></svg>';
+const clamp = THREE.MathUtils.clamp;
+
+/* =====================================================
+   Render loop shared by every WebGL scene
+===================================================== */
+const scenes = [];
+function addScene(canvas, renderFn, resizeFn) {
+  const s = { canvas, render: renderFn, resize: resizeFn };
+  scenes.push(s);
+  resizeFn();
+  return s;
+}
+addEventListener('resize', () => scenes.forEach(s => s.resize()));
+function loop(t) {
+  for (const s of scenes) {
+    const r = s.canvas.getBoundingClientRect();
+    if (r.bottom > -100 && r.top < innerHeight + 100) s.render(t);
+  }
+  requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
+
+function makeRenderer(canvas, opts = {}) {
+  const r = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: !!opts.alpha, powerPreference: 'high-performance' });
+  r.setPixelRatio(DPR);
+  if (!opts.alpha) r.setClearColor(0x0b0b0c, 1);
+  return r;
+}
+function fitRenderer(renderer, camera) {
+  const c = renderer.domElement;
+  const w = c.clientWidth, h = c.clientHeight;
+  if (!w || !h) return;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+}
+function envFor(renderer, blur = 0.04) {
+  const pm = new THREE.PMREMGenerator(renderer);
+  const tex = pm.fromScene(new RoomEnvironment(), blur).texture;
+  pm.dispose();
+  return tex;
+}
+
+/* =====================================================
+   HERO — procedural night city + the LEVEL tower
+===================================================== */
+const hero = (() => {
+  const canvas = $('#hero-canvas');
+  const renderer = makeRenderer(canvas);
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 200);
+  scene.environment = envFor(renderer);
+  scene.fog = new THREE.Fog(0x0b0b0c, 20, 58);
+
+  const FOG = new THREE.Vector3(11 / 255, 11 / 255, 12 / 255);
+  const TX = isMobile ? 1.4 : 6.4, TZ = -2;
+  const common = {
+    uTime: { value: 0 }, uRise: { value: 0 },
+    uCam: { value: new THREE.Vector3() }, uFog: { value: FOG },
+    uNear: { value: 16 }, uFar: { value: 56 },
+    uTower: { value: new THREE.Vector2(TX, TZ) }
+  };
+
+  /* --- city blocks (one instanced mesh, windows drawn in the shader) --- */
+  const S = 2.2, blds = [];
+  for (let ix = -10; ix <= 10; ix++) for (let iz = -17; iz <= 3; iz++) {
+    const x = ix * S, z = iz * S;
+    const dist = Math.hypot(x - TX, z - TZ);
+    if (dist < 3.6 || Math.random() < 0.16) continue;
+    let h = 0.8 + Math.pow(Math.random(), 2.2) * 7 + Math.max(0, 6 - dist * 0.35) * Math.random();
+    if (z > 1) h *= 0.45;
+    blds.push({ x, z, w: 1.1 + Math.random() * 0.8, d: 1.1 + Math.random() * 0.8, h, delay: dist * 0.03 + Math.random() * 0.3 });
+  }
+  const box = new THREE.BoxGeometry(1, 1, 1); box.translate(0, 0.5, 0);
+  const cityMat = new THREE.ShaderMaterial({
+    uniforms: common,
+    vertexShader: /* glsl */`
+      attribute float aDelay; attribute float aSeed;
+      uniform float uRise;
+      varying vec3 vW; varying vec3 vN; varying float vSeed;
+      void main(){
+        vec3 p = position;
+        float r = clamp((uRise - aDelay) / 0.7, 0.0, 1.0);
+        r = 1.0 - pow(1.0 - r, 3.0);
+        p.y *= max(r, 0.001);
+        vec4 w = modelMatrix * instanceMatrix * vec4(p, 1.0);
+        vW = w.xyz; vN = normal; vSeed = aSeed;
+        gl_Position = projectionMatrix * viewMatrix * w;
+      }`,
+    fragmentShader: /* glsl */`
+      uniform float uTime; uniform vec3 uCam; uniform vec3 uFog; uniform float uNear; uniform float uFar;
+      varying vec3 vW; varying vec3 vN; varying float vSeed;
+      float hash(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+      void main(){
+        vec3 n = normalize(vN);
+        float diff = 0.45 + 0.55 * max(dot(n, normalize(vec3(-0.4, 0.8, 0.5))), 0.0);
+        vec3 col = vec3(0.07, 0.068, 0.066) * diff;
+        col += vec3(0.03, 0.024, 0.016) * smoothstep(0.0, 12.0, vW.y);
+        if (abs(n.y) < 0.5) {
+          vec2 uv = abs(n.x) > 0.5 ? vec2(vW.z, vW.y) : vec2(vW.x, vW.y);
+          vec2 cs = vec2(0.3, 0.42);
+          vec2 id = floor(uv / cs); vec2 f = fract(uv / cs);
+          float win = step(0.2, f.x) * step(f.x, 0.8) * step(0.25, f.y) * step(f.y, 0.78) * step(0.45, vW.y);
+          float h = hash(id + vSeed * 17.3 + n.xz * 5.1);
+          float lit = step(0.8, h);
+          float flick = 0.8 + 0.2 * sin(uTime * (1.0 + h * 3.0) + h * 60.0);
+          vec3 warm = mix(vec3(1.0, 0.68, 0.38), vec3(1.0, 0.88, 0.7), hash(id + 3.1));
+          col = mix(col, vec3(0.03, 0.034, 0.04), win * 0.8);
+          float fade = 1.0 - smoothstep(22.0, 46.0, distance(vW, uCam));
+          col += win * lit * warm * 0.75 * flick * fade;
+        } else {
+          col *= 0.8;
+        }
+        float fog = smoothstep(uNear, uFar, distance(vW, uCam));
+        gl_FragColor = vec4(mix(col, uFog, fog), 1.0);
+      }`
+  });
+  const city = new THREE.InstancedMesh(box, cityMat, blds.length);
+  const delays = new Float32Array(blds.length), seeds = new Float32Array(blds.length);
+  const m4 = new THREE.Matrix4();
+  blds.forEach((b, i) => {
+    m4.makeScale(b.w, b.h, b.d).setPosition(b.x, 0, b.z);
+    city.setMatrixAt(i, m4);
+    delays[i] = b.delay; seeds[i] = Math.random();
+  });
+  box.setAttribute('aDelay', new THREE.InstancedBufferAttribute(delays, 1));
+  box.setAttribute('aSeed', new THREE.InstancedBufferAttribute(seeds, 1));
+  city.frustumCulled = false;
+  scene.add(city);
+
+  /* --- ground with street grid --- */
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.ShaderMaterial({
+    uniforms: common,
+    vertexShader: `varying vec3 vW; void main(){ vec4 w = modelMatrix * vec4(position,1.0); vW = w.xyz; gl_Position = projectionMatrix * viewMatrix * w; }`,
+    fragmentShader: /* glsl */`
+      uniform vec3 uCam; uniform vec3 uFog; uniform float uNear; uniform float uFar; uniform vec2 uTower; uniform float uTime;
+      varying vec3 vW;
+      void main(){
+        vec2 q = vW.xz / 2.2 - 0.5;
+        vec2 g = abs(fract(q) - 0.5) / fwidth(q);
+        float line = 1.0 - min(min(g.x, g.y), 1.0);
+        vec3 gold = vec3(0.79, 0.63, 0.42);
+        vec3 col = vec3(0.04, 0.039, 0.038) + gold * line * 0.1;
+        float d = distance(vW.xz, uTower);
+        col += gold * exp(-d * 0.3) * 0.16;
+        float ring = smoothstep(0.08, 0.0, abs(d - mod(uTime * 2.0, 30.0))) * exp(-d * 0.08);
+        col += gold * ring * line * 1.2 + gold * ring * 0.05;
+        float fog = smoothstep(uNear, uFar, distance(vW, uCam));
+        gl_FragColor = vec4(mix(col, uFog, fog), 1.0);
+      }`
+  }));
+  ground.rotation.x = -Math.PI / 2;
+  scene.add(ground);
+
+  /* --- the LEVEL tower: twisted floors with gold slabs --- */
+  const tower = new THREE.Group();
+  tower.position.set(TX, 0, TZ);
+  scene.add(tower);
+  const FN = 26, FH = 0.42;
+  const glassMat = new THREE.MeshStandardMaterial({ color: 0x15171b, metalness: 0.95, roughness: 0.12, envMapIntensity: 1.3 });
+  const goldMat = new THREE.MeshStandardMaterial({ color: 0xc9a26b, metalness: 1, roughness: 0.3, emissive: 0x7a5a2c, emissiveIntensity: 0.55 });
+  const warmMat = new THREE.MeshBasicMaterial({ color: 0xffc58a });
+  const glassGeo = new THREE.BoxGeometry(2, FH * 0.84, 2);
+  const slabGeo = new THREE.BoxGeometry(2.14, FH * 0.16, 2.14);
+  const stripGeo = new THREE.BoxGeometry(2.02, FH * 0.08, 2.02);
+  const floors = [];
+  for (let i = 0; i < FN; i++) {
+    const f = new THREE.Group();
+    const s = 1 - i * 0.009;
+    f.scale.set(s, 1, s);
+    f.add(new THREE.Mesh(glassGeo, glassMat));
+    const slab = new THREE.Mesh(slabGeo, goldMat); slab.position.y = -FH * 0.5; f.add(slab);
+    if (Math.random() < 0.45) { const st = new THREE.Mesh(stripGeo, warmMat); st.position.y = (Math.random() - 0.5) * FH * 0.4; st.scale.set(0.995, 1, 0.995); f.add(st); }
+    f.userData.y = i * FH + FH * 0.6;
+    f.userData.r = i * 0.03;
+    f.position.y = f.userData.y;
+    f.rotation.y = f.userData.r;
+    f.visible = false;
+    tower.add(f); floors.push(f);
+  }
+  const top = FN * FH + FH * 0.6;
+  const spire = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.07, 2.2, 8), goldMat);
+  spire.position.y = top + 1; spire.scale.y = 0.001; tower.add(spire);
+  const beacon = new THREE.Mesh(new THREE.SphereGeometry(0.09, 16, 16), new THREE.MeshBasicMaterial({ color: 0xffd9a0 }));
+  beacon.position.y = top + 2.15; beacon.visible = false; tower.add(beacon);
+  const halo = new THREE.Mesh(new THREE.RingGeometry(2.0, 2.04, 96), new THREE.MeshBasicMaterial({ color: 0xc9a26b, transparent: true, opacity: 0.5, side: THREE.DoubleSide }));
+  halo.rotation.x = -Math.PI / 2; halo.position.y = 0.02; tower.add(halo);
+
+  scene.add(new THREE.AmbientLight(0xffffff, 0.25));
+  const sun = new THREE.DirectionalLight(0xffe0b8, 1.4); sun.position.set(-6, 12, 8); scene.add(sun);
+  const pl = new THREE.PointLight(0xffc27a, 40, 24); pl.position.set(TX, top + 2, TZ + 1); scene.add(pl);
+
+  /* --- floating gold dust --- */
+  const PN = isMobile ? 350 : 800;
+  const pPos = new Float32Array(PN * 3), pSpd = new Float32Array(PN);
+  for (let i = 0; i < PN; i++) {
+    pPos[i * 3] = (Math.random() - 0.5) * 50; pPos[i * 3 + 1] = Math.random() * 18; pPos[i * 3 + 2] = -35 + Math.random() * 48;
+    pSpd[i] = 0.002 + Math.random() * 0.006;
+  }
+  const pGeo = new THREE.BufferGeometry(); pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+  const dust = new THREE.Points(pGeo, new THREE.PointsMaterial({ color: 0xe6c999, size: 0.06, transparent: true, opacity: 0.75, blending: THREE.AdditiveBlending, depthWrite: false }));
+  scene.add(dust);
+
+  /* --- interaction --- */
+  const mouse = { x: 0, y: 0 }, sm = { x: 0, y: 0 }, sp = { v: 0 };
+  addEventListener('pointermove', e => { mouse.x = e.clientX / innerWidth * 2 - 1; mouse.y = e.clientY / innerHeight * 2 - 1; });
+  ScrollTrigger.create({ trigger: '.hero', start: 'top top', end: 'bottom top', onUpdate: s => sp.v = s.progress });
+
+  function resize() { fitRenderer(renderer, camera); }
+  function render(t) {
+    const time = t * 0.001;
+    sm.x += (mouse.x - sm.x) * 0.04; sm.y += (mouse.y - sm.y) * 0.04;
+    const p = sp.v, far = camera.aspect < 1 ? 24 : 16.5;
+    camera.position.set(sm.x * 1.6 + Math.sin(time * 0.15) * 0.8, 3.2 + p * 7 - sm.y * 0.7, far - p * 6);
+    camera.lookAt(isMobile ? TX * 0.6 : 3.2 + sm.x * 0.4, 5 + p * 2.5, 0);
+    common.uTime.value = time;
+    common.uCam.value.copy(camera.position);
+    tower.rotation.y = Math.sin(time * 0.2) * 0.08;
+    halo.scale.setScalar(1 + (time % 3) / 3 * 1.6);
+    halo.material.opacity = 0.5 * (1 - (time % 3) / 3);
+    beacon.material.color.setScalar(0.6 + 0.4 * Math.abs(Math.sin(time * 2))).multiply(new THREE.Color(0xffd9a0));
+    for (let i = 0; i < PN; i++) {
+      pPos[i * 3 + 1] += pSpd[i];
+      if (pPos[i * 3 + 1] > 18) pPos[i * 3 + 1] = 0;
+    }
+    pGeo.attributes.position.needsUpdate = true;
+    renderer.render(scene, camera);
+  }
+  addScene(canvas, render, resize);
+
+  function intro() {
+    const tl = gsap.timeline();
+    tl.to(common.uRise, { value: 2.2, duration: 3.2, ease: 'power2.out' }, 0);
+    floors.forEach((f, i) => {
+      tl.fromTo(f.position, { y: f.userData.y + 7 }, { y: f.userData.y, duration: 1.1, ease: 'expo.out', onStart: () => f.visible = true }, 0.5 + i * 0.05);
+      tl.fromTo(f.rotation, { y: f.userData.r + 1.6 }, { y: f.userData.r, duration: 1.3, ease: 'expo.out' }, 0.5 + i * 0.05);
+    });
+    tl.to(spire.scale, { y: 1, duration: 0.8, ease: 'power3.out', onComplete: () => beacon.visible = true }, 0.5 + FN * 0.05 + 0.3);
+    return tl;
+  }
+  return { intro };
+})();
+
+/* =====================================================
+   LEVELS — сучасний ЖК збирається поверх за поверхом
+===================================================== */
+(() => {
+  const canvas = $('#levels-canvas');
+  const renderer = makeRenderer(canvas);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.1;
+  if (!isMobile) { renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap; }
+  const scene = new THREE.Scene();
+  scene.environment = envFor(renderer);
+  scene.fog = new THREE.Fog(0x0b0b0c, 42, 85);
+  const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 200);
+
+  // матеріали сучасного фасаду: біла штукатурка, графіт, дерево, панорамне скло
+  const std = (color, roughness) => new THREE.MeshStandardMaterial({ color, roughness });
+  const M = {
+    slab: std(0xf2efe9, 0.55),
+    white: std(0xe2ddd4, 0.7),
+    graphite: std(0x2a2c30, 0.6),
+    wood: std(0xa8703f, 0.55),
+    glass: new THREE.MeshStandardMaterial({ color: 0x1a232c, metalness: 0.9, roughness: 0.05, envMapIntensity: 1.4 }),
+    lit: new THREE.MeshStandardMaterial({ color: 0x000000, emissive: 0xff9f45, emissiveIntensity: 0.8, roughness: 0.4 }),
+    rail: new THREE.MeshStandardMaterial({ color: 0xa9c4d4, metalness: 0.3, roughness: 0.05, transparent: true, opacity: 0.32, depthWrite: false }),
+    metal: new THREE.MeshStandardMaterial({ color: 0x1c1d20, metalness: 0.7, roughness: 0.35 }),
+    gold: new THREE.MeshStandardMaterial({ color: 0xc9a26b, metalness: 1, roughness: 0.28, emissive: 0x4a3418, emissiveIntensity: 0.4 }),
+    green: std(0x3f5f38, 0.9)
+  };
+
+  // кожен поверх збирається з коробок і зливається в кілька мешів (по одному на матеріал) — так швидше
+  const parts = () => {
+    const p = {};
+    return {
+      box(mat, w, h, d, x, y, z) { const g = new THREE.BoxGeometry(w, h, d); g.translate(x, y, z); (p[mat] ||= []).push(g); },
+      mesh() {
+        const grp = new THREE.Group();
+        for (const k in p) {
+          const m = new THREE.Mesh(mergeGeometries(p[k]), M[k]);
+          m.castShadow = k !== 'rail'; m.receiveShadow = true;
+          grp.add(m);
+          p[k].forEach(g => g.dispose());
+        }
+        return grp;
+      }
+    };
+  };
+
+  const FH = 1, GH = 1.4; // типовий поверх і вищий комерційний перший поверх
+  // фасад: g — панорамне вікно, o — дерев'яна панель, d — графітова панель, w — біла стіна
+  function facade(b, S, pattern, axis, sign, y0, h) {
+    const len = axis === 'z' ? S.W : S.D, half = (axis === 'z' ? S.D : S.W) / 2, mw = len / pattern.length;
+    [...pattern].forEach((t, i) => {
+      const c = -len / 2 + (i + 0.5) * mw;
+      let mat, w, hh, yc, out;
+      if (t === 'g') { mat = Math.random() < 0.3 ? 'lit' : 'glass'; w = mw - 0.16; hh = h * 0.8; yc = y0 + h * 0.5; out = 0.01; }
+      else if (t === 'o' || t === 'd') { mat = t === 'o' ? 'wood' : 'graphite'; w = mw - 0.02; hh = h - 0.02; yc = y0 + h / 2; out = 0.04; }
+      else return;
+      const pos = half - 0.05 + out;
+      if (axis === 'z') b.box(mat, w, hh, 0.06, c, yc, sign * pos);
+      else b.box(mat, 0.06, hh, w, sign * pos, yc, c);
+    });
+  }
+  function typicalFloor(S) {
+    const b = parts(), h = FH - 0.12;
+    b.box('slab', S.W + 0.16, 0.12, S.D + 0.16, 0, 0.06, 0);
+    b.box('white', S.W - 0.1, h, S.D - 0.1, 0, 0.12 + h / 2, 0);
+    facade(b, S, S.front, 'z', 1, 0.12, h);
+    facade(b, S, S.back, 'z', -1, 0.12, h);
+    facade(b, S, S.side, 'x', 1, 0.12, h);
+    facade(b, S, S.side, 'x', -1, 0.12, h);
+    const mw = S.W / S.front.length, z = S.D / 2;
+    S.balc.forEach(([start, span]) => {
+      const x = -S.W / 2 + (start + span / 2) * mw, w = span * mw - 0.08;
+      b.box('slab', w, 0.1, 1.1, x, 0.05, z + 0.55);
+      b.box('rail', w, 0.55, 0.03, x, 0.375, z + 1.085);
+      b.box('rail', 0.03, 0.55, 1.1, x - w / 2 + 0.015, 0.375, z + 0.55);
+      b.box('rail', 0.03, 0.55, 1.1, x + w / 2 - 0.015, 0.375, z + 0.55);
+      b.box('metal', w, 0.035, 0.05, x, 0.665, z + 1.085);
+    });
+    return b.mesh();
+  }
+  function groundFloor(S) {
+    const b = parts(), h = GH - 0.12, yc = 0.12 + h / 2, W = S.W, D = S.D;
+    b.box('slab', W + 0.16, 0.12, D + 0.16, 0, 0.06, 0);
+    b.box('graphite', W - 0.4, h, D - 0.4, 0, yc, 0);
+    // вітрини комерційних приміщень
+    b.box('lit', W - 0.36, h - 0.25, 0.04, 0, yc - 0.05, D / 2 - 0.18);
+    b.box('glass', W - 0.36, h - 0.25, 0.04, 0, yc - 0.05, -(D / 2 - 0.18));
+    b.box('lit', 0.04, h - 0.25, D - 0.36, W / 2 - 0.18, yc - 0.05, 0);
+    b.box('glass', 0.04, h - 0.25, D - 0.36, -(W / 2 - 0.18), yc - 0.05, 0);
+    for (let x = -W / 2 + 1; x < W / 2 - 0.5; x += 1) b.box('metal', 0.05, h, 0.06, x, yc, D / 2 - 0.15);
+    // козирок над входом із золотою кромкою
+    b.box('graphite', W * 0.5, 0.1, 1.5, 0, GH - 0.1, D / 2 + 0.55);
+    b.box('gold', W * 0.5, 0.05, 0.05, 0, GH - 0.1, D / 2 + 1.3);
+    return b.mesh();
+  }
+  function roofTop(S) {
+    const b = parts(), W = S.W, D = S.D;
+    b.box('slab', W + 0.16, 0.14, D + 0.16, 0, 0.07, 0);
+    b.box('white', W + 0.16, 0.45, 0.14, 0, 0.36, D / 2 + 0.01);
+    b.box('white', W + 0.16, 0.45, 0.14, 0, 0.36, -D / 2 - 0.01);
+    b.box('white', 0.14, 0.45, D, W / 2 + 0.01, 0.36, 0);
+    b.box('white', 0.14, 0.45, D, -W / 2 - 0.01, 0.36, 0);
+    b.box('gold', W + 0.18, 0.04, 0.05, 0, 0.6, D / 2 + 0.06);
+    b.box('graphite', W * 0.3, 0.9, D * 0.32, -W * 0.22, 0.59, -D * 0.18);
+    b.box('green', W * 0.4, 0.22, 0.5, W * 0.18, 0.25, D * 0.25);
+    b.box('green', 0.5, 0.22, D * 0.4, W * 0.36, 0.25, -D * 0.05);
+    return b.mesh();
+  }
+
+  // дві секції ЖК: висока на 14 поверхів і нижча на 9
+  const A = { x: -3.6, z: 0.4, W: 8, D: 6, n: 14, front: 'oggwgggo', back: 'gwgggwgg', side: 'ggoggw', balc: [[1, 2], [4, 3]] };
+  const B = { x: 4.4, z: -1.6, W: 6, D: 6, n: 9, front: 'dggdgg', back: 'gdggdg', side: 'gdggdg', balc: [[1, 2], [4, 2]] };
+  const complex = new THREE.Group();
+  scene.add(complex);
+  const floors = [];
+  [A, B].forEach(S => {
+    S.top = GH + (S.n - 1) * FH;
+    for (let i = 0; i < S.n; i++) {
+      const g = i === 0 ? groundFloor(S) : typicalFloor(S);
+      g.userData = { i, y: i === 0 ? 0 : GH + (i - 1) * FH };
+      g.position.set(S.x, g.userData.y, S.z);
+      g.visible = false;
+      complex.add(g); floors.push(g);
+    }
+    S.roof = roofTop(S);
+    S.roof.position.set(S.x, S.top, S.z);
+    S.roof.visible = false;
+    complex.add(S.roof);
+  });
+  const roofLight = new THREE.PointLight(0xffc27a, 0, 20);
+  roofLight.position.set(A.x, A.top + 2, A.z + 2);
+  scene.add(roofLight);
+
+  // двір: мощення, газони, доріжка, дерева, ліхтарі
+  const land = new THREE.Group();
+  scene.add(land);
+  const add = (geo, mat, x, y, z, parent = land) => { const m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); m.castShadow = m.receiveShadow = true; parent.add(m); return m; };
+  const ground = new THREE.Mesh(new THREE.CircleGeometry(140, 64), std(0x08080a, 1));
+  ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+  add(new THREE.BoxGeometry(30, 0.1, 22), std(0x1b1b1e, 0.95), 0.4, 0.05, 0);
+  const lawn = std(0x2c4428, 0.95);
+  [[-7.3, 6.4, 5, 3], [0.1, 6.4, 5, 3], [5.2, 4.2, 4.4, 2.6], [-10.6, 0.4, 3, 8]].forEach(([x, z, w, d]) => add(new THREE.BoxGeometry(w, 0.14, d), lawn, x, 0.07, z));
+  add(new THREE.BoxGeometry(2.2, 0.12, 6), std(0x34343a, 0.9), A.x, 0.06, 6.6);
+  const trunkMat = std(0x4a3626, 0.9), leaf = [std(0x4a6b3f, 0.85), std(0x3c5a35, 0.85), std(0x5a7a46, 0.85)];
+  const trunkGeo = new THREE.CylinderGeometry(0.07, 0.09, 0.9, 8), crownGeo = new THREE.IcosahedronGeometry(0.7, 1);
+  const trees = [[-10.6, -2.5], [-10.6, 1.2], [-10.6, 3.8], [-8.6, 6.6], [-6, 7.6], [-1.2, 7.4], [1.6, 6.2], [3.8, 4.6], [6.6, 4.9], [9.2, 3.2], [9.6, -0.5], [9.6, -3.6]].map(([x, z], j) => {
+    const t = new THREE.Group();
+    t.position.set(x, 0.12, z);
+    add(trunkGeo, trunkMat, 0, 0.45, 0, t);
+    const c = add(crownGeo, leaf[j % 3], 0, 1.25, 0, t);
+    c.scale.setScalar(0.8 + (j % 4) * 0.12);
+    t.scale.setScalar(0.001);
+    land.add(t);
+    return t;
+  });
+  const poleGeo = new THREE.CylinderGeometry(0.03, 0.03, 1.3, 6), lampGeo = new THREE.SphereGeometry(0.1, 12, 12), lampMat = new THREE.MeshBasicMaterial({ color: 0xffd9a0 });
+  [[-5, 4.6], [-2.2, 4.6], [2.6, 3.2], [7.6, 2.6], [-9, -4.2], [8.2, -4.6]].forEach(([x, z]) => { add(poleGeo, M.metal, x, 0.75, z); add(lampGeo, lampMat, x, 1.42, z); });
+  const ring = new THREE.Mesh(new THREE.RingGeometry(15.6, 15.66, 160), new THREE.MeshBasicMaterial({ color: 0xc9a26b, transparent: true, opacity: 0.45 }));
+  ring.rotation.x = -Math.PI / 2; ring.position.y = 0.11; scene.add(ring);
+
+  scene.add(new THREE.HemisphereLight(0xfff1dc, 0x0b0b0c, 0.55));
+  const sun = new THREE.DirectionalLight(0xffe2b8, 2.6);
+  sun.position.set(12, 22, 14); sun.castShadow = true;
+  sun.shadow.mapSize.set(2048, 2048);
+  Object.assign(sun.shadow.camera, { left: -18, right: 18, top: 22, bottom: -8, near: 1, far: 70 });
+  sun.shadow.camera.updateProjectionMatrix();
+  sun.shadow.bias = -0.0004;
+  scene.add(sun);
+  const rim = new THREE.PointLight(0xc9a26b, 80, 40); rim.position.set(-14, 6, -8); scene.add(rim);
+
+  // ЖК збирається сам за кілька секунд, щойно секція з'являється на екрані
+  const P = { cur: 0 };
+  const items = $$('.lv-item'), floorNum = $('#floor-num'), bar = $('.levels__progress span');
+  let lastFloor = -1, lastActive = -1;
+  ScrollTrigger.create({
+    trigger: '.levels', start: 'top 65%', once: true,
+    onEnter: () => gsap.to(P, { cur: 1, duration: reduce ? 0.01 : 6, ease: 'power1.inOut' })
+  });
+
+  const shift = isMobile ? 0 : 7;
+  const ease = q => 1 - Math.pow(1 - q, 3);
+  const right = new THREE.Vector3(), target = new THREE.Vector3();
+  function resize() { fitRenderer(renderer, camera); }
+  function render(t) {
+    const time = t * 0.001;
+    const p = P.cur;
+    const k = Math.min(p / 0.86, 1) * A.n;
+    floors.forEach(g => {
+      const { i, y } = g.userData, e = ease(clamp(k - i, 0, 1));
+      g.visible = e > 0.001;
+      g.position.y = y + (1 - e) * 6;
+      g.rotation.y = (1 - e) * 1.2;
+      g.scale.setScalar(0.75 + 0.25 * e);
+    });
+    [[B, clamp(k - B.n, 0, 1)], [A, clamp((p - 0.86) / 0.08, 0, 1)]].forEach(([S, q]) => {
+      const e = ease(q);
+      S.roof.visible = e > 0.001;
+      S.roof.position.y = S.top + (1 - e) * 5;
+      S.roof.rotation.y = (1 - e) * 1;
+    });
+    roofLight.intensity = ease(clamp((p - 0.86) / 0.08, 0, 1)) * 30;
+    trees.forEach((tr, j) => tr.scale.setScalar(Math.max(0.001, ease(clamp((p - 0.78 - j * 0.012) / 0.12, 0, 1)))));
+    complex.rotation.y = land.rotation.y = Math.sin(time * 0.3) * 0.03;
+
+    const builtH = Math.max(2, GH + (Math.min(k, A.n) - 1) * FH);
+    const a = -0.55 + p * 1.5 + time * 0.03;
+    const R = camera.aspect < 1 ? 52 : 41;
+    right.set(Math.cos(a), 0, -Math.sin(a));
+    target.set(0.4, builtH * 0.5 + 1.4, 0).addScaledVector(right, -shift);
+    camera.position.set(Math.sin(a) * R, 6 + builtH * 0.55, Math.cos(a) * R).addScaledVector(right, -shift);
+    camera.lookAt(target);
+    renderer.render(scene, camera);
+
+    const fl = Math.min(A.n, Math.floor(k + 0.001));
+    if (fl !== lastFloor) { floorNum.textContent = String(fl).padStart(2, '0'); lastFloor = fl; }
+    bar.style.transform = `scaleX(${p})`;
+    const active = p < 0.01 ? 0 : Math.min(4, Math.ceil(p * 4));
+    if (active !== lastActive) { items.forEach((el, i) => el.classList.toggle('is-active', i < active)); lastActive = active; }
+  }
+  addScene(canvas, render, resize);
+})();
+
+/* =====================================================
+   SERVICES — three small 3D models
+===================================================== */
+$$('.svc__canvas').forEach(canvas => {
+  const renderer = makeRenderer(canvas, { alpha: true });
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  const scene = new THREE.Scene();
+  scene.environment = envFor(renderer, 0.02);
+  const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 50);
+  camera.position.set(0, 0.8, 7.5); camera.lookAt(0, 0, 0);
+  scene.add(new THREE.AmbientLight(0xffffff, 0.2));
+  const dl = new THREE.DirectionalLight(0xfff0dc, 2.6); dl.position.set(3, 5, 4); scene.add(dl);
+  const gl = new THREE.PointLight(0xc9a26b, 25, 15); gl.position.set(-3, -1, 3); scene.add(gl);
+
+  const gold = new THREE.MeshStandardMaterial({ color: 0xd4aa6a, metalness: 1, roughness: 0.22 });
+  const cream = new THREE.MeshStandardMaterial({ color: 0xe9e2d4, roughness: 0.45 });
+  const dark = new THREE.MeshStandardMaterial({ color: 0x1b1b1e, metalness: 0.4, roughness: 0.35 });
+  const warm = new THREE.MeshBasicMaterial({ color: 0xffcf96 });
+  const g = new THREE.Group(); scene.add(g);
+  const add = (geo, mat, x = 0, y = 0, z = 0, parent = g) => { const o = new THREE.Mesh(geo, mat); o.position.set(x, y, z); parent.add(o); return o; };
+  let update = () => {};
+  const kind = canvas.dataset.model;
+
+  if (kind === 'key') {
+    add(new THREE.TorusGeometry(0.62, 0.17, 32, 96), gold, -1.3);
+    add(new THREE.SphereGeometry(0.22, 32, 32), dark, -1.3);
+    const shaft = add(new THREE.CylinderGeometry(0.12, 0.12, 2.5, 32), gold, 0.55); shaft.rotation.z = Math.PI / 2;
+    const collar = add(new THREE.CylinderGeometry(0.21, 0.21, 0.16, 32), gold, -0.55); collar.rotation.z = Math.PI / 2;
+    add(new THREE.BoxGeometry(0.16, 0.42, 0.1), gold, 1.05, -0.26);
+    add(new THREE.BoxGeometry(0.16, 0.3, 0.1), gold, 1.35, -0.2);
+    add(new THREE.BoxGeometry(0.22, 0.52, 0.1), gold, 1.68, -0.28);
+    g.rotation.z = 0.45;
+    g.scale.setScalar(1.05);
+  } else if (kind === 'house') {
+    add(new THREE.BoxGeometry(2.3, 0.14, 2), dark, 0, -0.73);
+    add(new THREE.BoxGeometry(1.8, 1.2, 1.6), cream, 0, -0.06);
+    const sh = new THREE.Shape(); sh.moveTo(-1.08, 0); sh.lineTo(0, 0.9); sh.lineTo(1.08, 0); sh.closePath();
+    const roofGeo = new THREE.ExtrudeGeometry(sh, { depth: 1.8, bevelEnabled: false }); roofGeo.translate(0, 0, -0.9);
+    add(roofGeo, gold, 0, 0.54);
+    add(new THREE.BoxGeometry(0.22, 0.5, 0.22), cream, 0.5, 1.1, 0);
+    add(new THREE.BoxGeometry(0.38, 0.64, 0.04), dark, 0, -0.34, 0.81);
+    add(new THREE.BoxGeometry(0.36, 0.32, 0.03), warm, -0.55, 0.1, 0.81);
+    add(new THREE.BoxGeometry(0.36, 0.32, 0.03), warm, 0.55, 0.1, 0.81);
+    const sign = new THREE.Group(); sign.position.set(1.45, 0, 0.75); g.add(sign);
+    add(new THREE.CylinderGeometry(0.03, 0.03, 1.3, 12), dark, 0, -0.1, 0, sign);
+    add(new THREE.BoxGeometry(0.62, 0.36, 0.04), gold, 0, 0.32, 0.03, sign);
+    update = t => { sign.rotation.z = Math.sin(t * 2) * 0.08; };
+  } else {
+    const bars = [];
+    const hs = [0.6, 1.0, 1.4, 1.85, 2.4];
+    const bg = new THREE.BoxGeometry(0.4, 1, 0.4); bg.translate(0, 0.5, 0);
+    add(new THREE.BoxGeometry(3.4, 0.1, 1.1), dark, 0, -1.05);
+    hs.forEach((h, i) => { const b = add(bg, i === hs.length - 1 ? gold : (i % 2 ? gold : cream), -1.2 + i * 0.6, -1); b.userData.h = h; bars.push(b); });
+    const pts = hs.map((h, i) => new THREE.Vector3(-1.2 + i * 0.6, -1 + h + 0.35, 0.45));
+    const curve = new THREE.CatmullRomCurve3(pts);
+    add(new THREE.TubeGeometry(curve, 64, 0.04, 12), gold);
+    const cone = add(new THREE.ConeGeometry(0.13, 0.3, 24), gold, pts[4].x + 0.08, pts[4].y + 0.12, 0.45);
+    cone.rotation.z = -0.55;
+    const coins = new THREE.Group(); coins.position.set(1.75, -0.95, 0.4); g.add(coins);
+    for (let i = 0; i < 4; i++) add(new THREE.CylinderGeometry(0.28, 0.28, 0.07, 40), gold, (i % 2) * 0.03, i * 0.08, 0, coins);
+    g.position.y = -0.2;
+    update = t => { bars.forEach((b, i) => { b.scale.y = b.userData.h * (0.94 + 0.06 * Math.sin(t * 2 + i)); }); coins.rotation.y = t; };
+  }
+
+  const card = canvas.closest('.svc');
+  let speed = 1, speedT = 1;
+  card.addEventListener('mouseenter', () => speedT = 4);
+  card.addEventListener('mouseleave', () => speedT = 1);
+  const baseY = g.position.y;
+  addScene(canvas, t => {
+    const time = t * 0.001;
+    speed += (speedT - speed) * 0.05;
+    g.rotation.y += 0.006 * speed;
+    g.position.y = baseY + Math.sin(time * 1.5) * 0.12;
+    update(time);
+    renderer.render(scene, camera);
+  }, () => fitRenderer(renderer, camera));
+});
+
+/* =====================================================
+   Content builders
+===================================================== */
+// marquee
+const mq = $('#marquee');
+const names = D.complexes.map(c => `<span class="marquee__item">${c.n}</span>`).join('');
+mq.innerHTML = names + names;
+const mqTween = gsap.to(mq, { xPercent: -50, duration: 90, ease: 'none', repeat: -1 });
+
+// complexes
+const grid = $('#cgrid'), moreBtn = $('#cmore'), search = $('#csearch'), filtersEl = $('#cfilters');
+const st = { q: '', street: '', expanded: false };
+const streetCount = {};
+D.complexes.forEach(c => streetCount[c.s] = (streetCount[c.s] || 0) + 1);
+const topStreets = Object.entries(streetCount).filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]).map(([s]) => s);
+filtersEl.innerHTML = `<button class="chip is-active" data-s="">Усі · ${D.complexes.length}</button>` +
+  topStreets.map(s => `<button class="chip" data-s="${s}">${s} · ${streetCount[s]}</button>`).join('');
+filtersEl.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  $$('.chip', filtersEl).forEach(c => c.classList.toggle('is-active', c === b));
+  st.street = b.dataset.s; renderGrid(true);
+});
+search.addEventListener('input', () => { st.q = search.value; renderGrid(true); });
+moreBtn.addEventListener('click', () => { st.expanded = !st.expanded; renderGrid(true); });
+
+let cardTriggers = [];
+function renderGrid(animate) {
+  const q = st.q.trim().toLowerCase();
+  const list = D.complexes.filter(c => (!st.street || c.s === st.street) && (!q || (c.n + ' ' + c.s).toLowerCase().includes(q)));
+  const collapsed = !st.expanded && !q && !st.street;
+  grid.classList.toggle('is-collapsed', collapsed);
+  moreBtn.parentElement.style.display = (!q && !st.street && list.length > 12) ? '' : 'none';
+  moreBtn.textContent = st.expanded ? 'Згорнути' : `Показати всі комплекси (${list.length})`;
+  grid.innerHTML = list.length ? list.map((c, i) => `
+    <article class="ccard" data-idx="${D.complexes.indexOf(c)}">
+      <img src="${c.i}" alt="ЖК ${c.n}" loading="lazy">
+      <div class="ccard__glare"></div>
+      <span class="ccard__num">ЖК · ${String(i + 1).padStart(2, '0')}</span>
+      <span class="ccard__arrow">${ARROW}</span>
+      <div class="ccard__info"><h3>${c.n}</h3><p>${c.s}</p></div>
+    </article>`).join('') : `<div class="cempty">Нічого не знайдено — залиште заявку, і ми підберемо варіант саме для вас.</div>`;
+
+  const cards = $$('.ccard', grid).filter(c => getComputedStyle(c).display !== 'none');
+  cardTriggers.forEach(t => t.kill()); cardTriggers = [];
+  if (animate) {
+    gsap.fromTo(cards, { opacity: 0, y: 50, rotationX: -20 }, { opacity: 1, y: 0, rotationX: 0, duration: 0.8, stagger: 0.035, ease: 'power3.out' });
+  } else {
+    gsap.set(cards, { opacity: 0, y: 90, rotationX: -30 });
+    cardTriggers = ScrollTrigger.batch(cards, {
+      start: 'top 92%',
+      onEnter: b => gsap.to(b, { opacity: 1, y: 0, rotationX: 0, duration: 1.1, stagger: 0.08, ease: 'power3.out', overwrite: true })
+    });
+  }
+  if (canHover) cards.forEach(card => {
+    const rx = gsap.quickTo(card, 'rotationX', { duration: 0.6, ease: 'power3' });
+    const ry = gsap.quickTo(card, 'rotationY', { duration: 0.6, ease: 'power3' });
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      ry((x - 0.5) * 18); rx((0.5 - y) * 18);
+      card.style.setProperty('--gx', x * 100 + '%'); card.style.setProperty('--gy', y * 100 + '%');
+    });
+    card.addEventListener('mouseleave', () => { rx(0); ry(0); });
+  });
+  requestAnimationFrame(() => ScrollTrigger.refresh());
+}
+renderGrid(false);
+grid.addEventListener('click', e => {
+  const card = e.target.closest('.ccard'); if (!card) return;
+  const c = D.complexes[card.dataset.idx];
+  openLightbox(c.i, `<b>ЖК ${c.n}</b><span>${c.s}, Івано-Франківськ</span><a href="catalog.html?q=${encodeURIComponent(c.n)}" class="btn btn--fill btn--sm">Квартири в каталозі</a><a href="#contact" class="btn btn--sm">Дізнатись ціни та планування</a>`);
+});
+
+// clients
+const half = Math.ceil(D.clients.length / 2);
+[[$('#crow1'), D.clients.slice(0, half), 1], [$('#crow2'), D.clients.slice(half), -1]].forEach(([row, imgs, dir]) => {
+  const html = imgs.map(src => `<img src="${src}" alt="Клієнт LEVEL" loading="lazy">`).join('');
+  row.innerHTML = html + html;
+  const tw = dir > 0
+    ? gsap.fromTo(row, { xPercent: 0 }, { xPercent: -50, duration: 60, ease: 'none', repeat: -1 })
+    : gsap.fromTo(row, { xPercent: -50 }, { xPercent: 0, duration: 60, ease: 'none', repeat: -1 });
+  row._tw = tw;
+});
+// speed up marquees with scroll velocity
+ScrollTrigger.create({
+  onUpdate: self => {
+    const v = clamp(Math.abs(self.getVelocity()) / 400, 0, 6);
+    [mqTween, $('#crow1')._tw, $('#crow2')._tw].forEach(tw => {
+      gsap.to(tw, { timeScale: 1 + v, duration: 0.2, overwrite: true });
+      gsap.to(tw, { timeScale: 1, duration: 1.2, delay: 0.25 });
+    });
+  }
+});
+
+// reviews slider (drag + buttons)
+const track = $('#rtrack'), slider = $('.rslider');
+track.innerHTML = D.reviews.map(src => `<div class="rcard"><img src="${src}" alt="Відгук клієнта" loading="lazy" draggable="false"></div>`).join('');
+let rx = 0;
+const maxX = () => {
+  const cs = getComputedStyle(slider);
+  return Math.max(0, track.scrollWidth - (slider.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight)));
+};
+const setX = (v, d = 0.8) => { rx = clamp(v, -maxX(), 0); gsap.to(track, { x: rx, duration: d, ease: 'power3.out' }); };
+const step = () => ($('.rcard').offsetWidth + 22) * (isMobile ? 1 : 2);
+$('#rnext').addEventListener('click', () => setX(rx - step()));
+$('#rprev').addEventListener('click', () => setX(rx + step()));
+let drag = null;
+slider.addEventListener('pointerdown', e => { drag = { x: e.clientX, start: rx, moved: 0, card: e.target.closest('.rcard'), last: e.clientX, v: 0 }; slider.setPointerCapture(e.pointerId); });
+slider.addEventListener('pointermove', e => {
+  if (!drag) return;
+  const dx = e.clientX - drag.x; drag.moved = Math.max(drag.moved, Math.abs(dx));
+  drag.v = e.clientX - drag.last; drag.last = e.clientX;
+  setX(drag.start + dx, 0.4);
+});
+const endDrag = () => {
+  if (!drag) return;
+  if (drag.moved < 6 && drag.card) openLightbox(drag.card.querySelector('img').src, '');
+  else setX(rx + drag.v * 12, 1);
+  drag = null;
+};
+slider.addEventListener('pointerup', endDrag);
+slider.addEventListener('pointercancel', () => drag = null);
+addEventListener('resize', () => setX(rx, 0));
+
+// office lightbox
+$$('.office__grid figure').forEach(f => f.addEventListener('click', () => openLightbox(f.querySelector('img').src, '<b>Офіс LEVEL</b><span>вул. Івасюка 19а, 4 поверх</span>')));
+
+/* lightbox */
+const lb = $('#lightbox');
+function openLightbox(src, caption) {
+  $('img', lb).src = src;
+  $('figcaption', lb).innerHTML = caption;
+  lb.classList.add('is-open'); LEVEL.lock(true);
+}
+function closeLightbox() { if (!lb.classList.contains('is-open')) return; lb.classList.remove('is-open'); LEVEL.lock(false); }
+lb.addEventListener('click', e => { if (e.target === lb || e.target.closest('.lightbox__close') || e.target.closest('a')) closeLightbox(); });
+addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+/* =====================================================
+   Scroll animations (заголовки, .reveal і форма — у common.js)
+===================================================== */
+// about lead: words light up while scrolling
+const lead = $('#about-lead');
+lead.innerHTML = lead.textContent.split(' ').map(w => `<span class="w">${w}</span>`).join(' ');
+gsap.to($$('.w', lead), { opacity: 1, stagger: 0.1, ease: 'none', scrollTrigger: { trigger: lead, start: 'top 80%', end: 'bottom 45%', scrub: true } });
+// about image: clip reveal + parallax
+gsap.to('.about__img', { clipPath: 'inset(0% 0 0 0 round 22px)', ease: 'power2.out', scrollTrigger: { trigger: '.about__img', start: 'top 90%', end: 'top 35%', scrub: 1 } });
+gsap.fromTo('.about__img img', { yPercent: -15 }, { yPercent: 0, ease: 'none', scrollTrigger: { trigger: '.about__img', start: 'top bottom', end: 'bottom top', scrub: true } });
+// counters
+$$('[data-count]').forEach(el => {
+  const o = { v: 0 }, to = +el.dataset.count;
+  if (!to) return;
+  gsap.to(o, { v: to, duration: 2, ease: 'power2.out', scrollTrigger: { trigger: el, start: 'top 90%' }, onUpdate: () => el.textContent = Math.round(o.v) });
+});
+// services: rise in from depth
+gsap.from('.svc', { y: 120, rotationX: 18, transformPerspective: 1200, opacity: 0, stagger: 0.15, duration: 1.3, ease: 'power3.out', clearProps: 'transform', scrollTrigger: { trigger: '.svc-grid', start: 'top 85%' } });
+// office pics + cta parallax
+gsap.from('.office__grid > *', { scale: 0.85, opacity: 0, stagger: 0.1, duration: 1.2, ease: 'power3.out', scrollTrigger: { trigger: '.office__grid', start: 'top 85%' } });
+gsap.fromTo('.cta__bg', { yPercent: -8 }, { yPercent: 8, ease: 'none', scrollTrigger: { trigger: '.cta', start: 'top bottom', end: 'bottom top', scrub: true } });
+gsap.from('.footer__big img', { yPercent: 60, opacity: 0, ease: 'power2.out', scrollTrigger: { trigger: '.footer', start: 'top 85%', end: 'bottom bottom', scrub: 1 } });
+// hero content fades as you scroll away
+gsap.to('.hero__content', { y: -120, opacity: 0, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+
+/* =====================================================
+   Preloader → hero intro
+===================================================== */
+gsap.set('.hero__title .split-line > span', { yPercent: 115 });
+gsap.set(['.hero__bottom', '.hero__badge', '.hero__scroll', '.nav'], { opacity: 0 });
+const count = $('.preloader__count'), cnt = { v: 0 };
+const pre = gsap.timeline()
+  .to('.preloader__logo path', { strokeDashoffset: 0, duration: 1.5, stagger: 0.1, ease: 'power2.inOut' }, 0)
+  .to('.preloader__bar span', { scaleX: 1, duration: 1.9, ease: 'power2.inOut' }, 0)
+  .to(cnt, { v: 100, duration: 1.9, ease: 'power2.inOut', onUpdate: () => count.textContent = String(Math.round(cnt.v)).padStart(3, '0') }, 0);
+let seen = false;
+try { seen = sessionStorage.getItem('levelSeen') === '1'; sessionStorage.setItem('levelSeen', '1'); } catch {}
+if (seen) pre.timeScale(3);
+const loaded = new Promise(r => document.readyState === 'complete' ? r() : addEventListener('load', r));
+Promise.all([pre.then(), Promise.race([loaded, new Promise(r => setTimeout(r, 3500))])]).then(() => {
+  gsap.timeline()
+    .to('.preloader__inner', { opacity: 0, y: -30, duration: 0.5, ease: 'power2.in' })
+    .to('.preloader', { clipPath: 'inset(0 0 100% 0)', duration: 1.1, ease: 'expo.inOut' })
+    .add(() => {
+      $('.preloader').remove();
+      document.body.classList.remove('loading');
+      lenis?.start();
+      ScrollTrigger.refresh();
+      if (location.hash && $(location.hash)) LEVEL.scrollTo(location.hash, { duration: 1.6 });
+    })
+    .add(hero.intro(), 0.6)
+    .to('.hero__title .split-line > span', { yPercent: 0, duration: 1.4, stagger: 0.12, ease: 'expo.out' }, 1.1)
+    .to(['.nav', '.hero__bottom', '.hero__badge', '.hero__scroll'], { opacity: 1, duration: 1.2, stagger: 0.1 }, 1.7);
+});
+</script>
+</body>
+</html>
